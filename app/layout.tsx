@@ -12,8 +12,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Splenify",
-  description: "Your Ultimate Software Solution Partner",
+  title: "weego",
+  description: "We provide what customers demands",
   icons: {
     icon: "/assets/images/logo.svg",
   },
