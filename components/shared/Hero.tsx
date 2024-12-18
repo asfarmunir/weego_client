@@ -32,16 +32,16 @@ const Hero = () => {
             height={42}
           />
           <h3 className=" text-sm md:text-base p-1 md:px-7 md:py-2 2xl:p-3.5  2xl:px-8 border   -rotate-12 text-yellow-500 rounded-[20px] border-slate- dark:border-none dark:bg-slate-800 2xl:text-lg">
-            App Dev
+            Ride Sharing
           </h3>
           <h3 className=" text-sm md:text-base p-1 md:px-7 md:py-2  2xl:p-3.5  2xl:px-8 border   rotate-12 text-yellow-500 rounded-[20px] border-slate- dark:border-none dark:bg-slate-800 2xl:text-lg">
-            UI | UX
+            Car Pooling
           </h3>
           <h3 className=" text-sm md:text-base p-1 md:px-7 md:py-2 2xl:p-3.5  2xl:px-8 border   -rotate-12 text-yellow-500 rounded-[20px] border-slate- dark:border-none dark:bg-slate-800 2xl:text-lg">
-            Design
+            Ride Booking
           </h3>
           <h3 className=" text-sm md:text-base p-1 md:px-7 md:py-2  2xl:p-3.5  2xl:px-8 border   rotate-12 text-yellow-500 rounded-[20px] border-slate- dark:border-none dark:bg-slate-800 2xl:text-lg">
-            Writing
+            Best Fairs
           </h3>
         </div>
         <h2 className=" text-3xl  md:text-xl 2xl:text-2xl tracking-wide ">
@@ -77,11 +77,11 @@ const Hero = () => {
           share rides and save miles.
         </p>
         <div className="flex  items-center justify-center gap-3 w-full  md:gap-8 px-12">
-          <button className=" bg-gradient-to-r hover:bg-yellow-500 transition-all text-xs  md:w-48 flex-grow md:flex-grow-0 from-yellow-600 to-yellow-200   md:text-base 2xl:text-lg text-white font-normal rounded-[23px] px-5 2xl:px-8 py-[1.1rem]  ">
+          <button className=" bg-gradient-to-r hover:bg-yellow-500 transition-all text-xs  md:w-56 flex-grow md:flex-grow-0 from-yellow-600 to-yellow-200   md:text-base 2xl:text-lg text-white font-normal rounded-[23px] px-5 2xl:px-8 py-[1.1rem]  ">
             Contact Us
           </button>
-          <button className=" bg-white dark:bg-transparent hover:shadowl tracking-tight hover:tracking-normal transition-all  flex-grow md:flex-grow-0 md:w-48 text-xs md:text-base 2xl:text-lg text-yellow-5 00 font-semibold rounded-[23px] px-5 2xl:px-8 py-[1rem]  border-[3px] border-yellow-500">
-            Book Meeting
+          <button className=" bg-white dark:bg-transparent hover:shadowl tracking-tight hover:tracking-normal transition-all  flex-grow md:flex-grow-0 md:w-56 text-xs md:text-base 2xl:text-lg text-yellow-5 00 font-semibold rounded-[23px] px-5 2xl:px-8 py-[1rem]  border-[3px] border-yellow-500">
+            Download App
           </button>
         </div>
         <HeroBentoGrid />
@@ -92,13 +92,13 @@ const Hero = () => {
             <span className="text-3xl 2xl:text-4xl text-yellow-500 font-semibold">
               300+
             </span>
-            Happy Clients
+            Happy Customers
           </h3>
           <h3 className=" p-2.5 2xl:p-4 px-8 2xl:px-10 border flex flex-col text-slate-400/80   -rotate-12   rounded-3xl bg-white dark:bg-slate-900 dark:border-slate-700  border-slate-300 2xl:text-lg ">
             <span className=" text-3xl 2xl:text-4xl text-yellow-500  font-semibold">
               40+
             </span>
-            Skillful Talent
+            Skillfull Drivers
           </h3>
         </div>
         <div className="flex flex-col px-4 items-center justify-center space-y-8">
@@ -140,13 +140,13 @@ const Hero = () => {
             <span className="text-3xl 2xl:text-4xl text-yellow-500 font-semibold">
               10+
             </span>
-            Year of Market
+            Year in Business
           </h3>
           <h3 className=" p-2.5 2xl:p-4 px-5 2xl:px-10 border flex flex-col text-slate-400/80   rotate-12 bg-white dark:bg-slate-900 dark:border-slate-700  rounded-3xl border-slate-300 2xl:text-lg ">
             <span className="text-3xl 2xl:text-4xl text-yellow-500  font-semibold">
               80+
             </span>
-            App Built
+            Partners
           </h3>
         </div>
       </div>

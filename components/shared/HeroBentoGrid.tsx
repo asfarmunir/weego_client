@@ -31,7 +31,7 @@ export default function BentoGridDemo() {
             objectPosition="center"
           />
         </motion.div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 -mt-4">
           <motion.div
             initial={{ opacity: 0, y: 100 }}
             whileInView={{
@@ -49,7 +49,7 @@ export default function BentoGridDemo() {
             }}
           >
             <Image
-              src="/images/hero_img2.svg"
+              src="/hero1.png"
               alt="hero"
               width={400}
               height={400}
@@ -111,7 +111,7 @@ export default function BentoGridDemo() {
                 >
                   {" "}
                   <Image
-                    src="/images/hero_img4.svg"
+                    src="/hero2.png"
                     alt="hero"
                     width={320}
                     height={400}

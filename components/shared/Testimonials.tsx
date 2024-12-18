@@ -30,7 +30,7 @@ const Testimonials = () => {
     >
       <div className="space-y-3 w-full">
         <p className="text-center text-base md:text-lg font-normal">
-          Don&apos;t take our word for it!
+          Testimonials
         </p>
         <div className="flex md:space-x-4 w-full justify-center items-center whitespace-nowrap">
           <Image
@@ -44,7 +44,7 @@ const Testimonials = () => {
           <h1
             className={`text-[27px] md:text-[40px] lg:text-[46px]  ${recoleta.className}    text-center `}
           >
-            Hear it from our <span className="text-[#7165FF]">clients</span>
+            Hear it from our <span className="grad_text ">customers</span>
           </h1>
           <Image
             src={"/images/leafr.svg"}
@@ -61,56 +61,56 @@ const Testimonials = () => {
             logo={"/images/recruitu.svg"}
             userImage={"/images/client1.svg"}
             profileImage={"/images/avatar.png"}
-            name={"Ruslan Babar"}
+            name={"Mark Steven"}
             delayDuration={0.1}
-            role={"Co-Founder of RecruitU"}
-            review="&quot;Working with Raja and Splenify has been incredible. They &lt;span class='font-bold'&gt;quickly grasped our business model&lt;/span&gt;, transforming our landing page and creating stellar social media assets, pitch decks, and more. &lt;span class='font-bold'&gt;Their versatility and expertise are unmatched&lt;/span&gt;.&quot;"
+            role={"Customer"}
+            review="<b>WeeGo</b> is my go-to app for ride bookings. The drivers are always punctual, and the customer service is excellent."
           />
           <TestimonialCard
             logo={"/images/lightdash.svg"}
             profileImage={"/images/avatar.png"}
-            name={"Ruslan Babar"}
+            name={"Mark Steven"}
             delayDuration={0.2}
-            role={"Co-Founder of RecruitU"}
-            review="&quot;Working with Raja and Splenify has been incredible. They &lt;span class='font-bold'&gt;quickly grasped our business model&lt;/span&gt;, transforming our landing page and creating stellar social media assets, pitch decks, and more. &lt;span class='font-bold'&gt;Their versatility and expertise are unmatched&lt;/span&gt;.&quot;"
+            role={"Customer"}
+            review="<b>WeeGo</b> is my go-to app for ride bookings. The drivers are always punctual, and the customer service is excellent."
           />
         </div>
         <div className="flex flex-col space-y-10">
           <TestimonialCard
             logo={"/images/lightdash.svg"}
             profileImage={"/images/avatar.png"}
-            name={"Ruslan Babar"}
+            name={"Mark Steven"}
             delayDuration={0.6}
-            role={"Co-Founder of RecruitU"}
-            review="&quot;Working with Raja and Splenify has been incredible. They &lt;span class='font-bold'&gt;quickly grasped our business model&lt;/span&gt;, transforming our landing page and creating stellar social media assets, pitch decks, and more. &lt;span class='font-bold'&gt;Their versatility and expertise are unmatched&lt;/span&gt;.&quot;"
+            role={"Customer"}
+            review="<b>WeeGo</b> is my go-to app for ride bookings. The drivers are always punctual, and the customer service is excellent."
           />
           <TestimonialCard
             logo={"/images/growtha.svg"}
             userImage={"/images/client2.svg"}
             profileImage={"/images/avatar.png"}
-            name={"Ruslan Babar"}
+            name={"Mark Steven"}
             delayDuration={0.1}
-            role={"Co-Founder of RecruitU"}
-            review="&quot;Working with Raja and Splenify has been incredible. They &lt;span class='font-bold'&gt;quickly grasped our business model&lt;/span&gt;, transforming our landing page and creating stellar social media assets, pitch decks, and more. &lt;span class='font-bold'&gt;Their versatility and expertise are unmatched&lt;/span&gt;.&quot;"
+            role={"Customer"}
+            review="<b>WeeGo</b> is my go-to app for ride bookings. The drivers are always punctual, and the customer service is excellent."
           />
         </div>
         <div className="flex flex-col space-y-10">
           <TestimonialCard
             logo={"/images/genex.svg"}
             profileImage={"/images/avatar.png"}
-            name={"Ruslan Babar"}
+            name={"Mark Steven"}
             delayDuration={0.35}
-            role={"Co-Founder of RecruitU"}
-            review="&quot;Working with Raja and Splenify has been incredible. They &lt;span class='font-bold'&gt;quickly grasped our business model&lt;/span&gt;, transforming our landing page and creating stellar social media assets, pitch decks, and more. &lt;span class='font-bold'&gt;Their versatility and expertise are unmatched&lt;/span&gt;.&quot;"
+            role={"Customer"}
+            review="<b>WeeGo</b> is my go-to app for ride bookings. The drivers are always punctual, and the customer service is excellent."
           />
           <TestimonialCard
             logo={"/images/recruitu.svg"}
             userImage="/images/client3.svg"
             profileImage={"/images/avatar.png"}
-            name="Ruslan Babar"
+            name="Mark Steven"
             delayDuration={0.4}
-            role="Co-Founder of RecruitU"
-            review="&quot;Working with Raja and Splenify has been incredible. They &lt;span class='font-bold'&gt;quickly grasped our business model&lt;/span&gt;, transforming our landing page and creating stellar social media assets, pitch decks, and more. &lt;span class='font-bold'&gt;Their versatility and expertise are unmatched&lt;/span&gt;.&quot;"
+            role="Customer"
+            review="<b>WeeGo</b> is my go-to app for ride bookings. The drivers are always punctual, and the customer service is excellent."
           />
         </div>
       </div>

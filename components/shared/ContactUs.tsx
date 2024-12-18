@@ -29,7 +29,7 @@ const ContactUs = () => {
         },
       }}
       id="contact"
-      className="flex  w-full items-center px-4 justify-center bg-gradient-to-b from-[#5956E929] dark:from-[#33328029] to-[#E541ED08]   gap-8 2xl:gap-16 py-16 md:px-8  mt-[20px] md:mt-[30px]"
+      className="flex  w-full items-center px-4 justify-center bg-gradient-to-b from-yellow-200/30 dark:from-[#33328029] to-[#E541ED08]   gap-8 2xl:gap-16 py-16 md:px-8  mt-[20px] md:mt-[30px]"
     >
       <motion.div
         initial={{
@@ -85,8 +85,8 @@ const ContactUs = () => {
             Lets Get Connected
           </h2>
           <p className="text-sm 2xl:text-base font-thin text-slate-800 dark:text-slate-300 tracking-wide leading-loose  ">
-            Unique and powerful suite of software to run your entire business,
-            brought to you transform the way you work.
+            We are here to help and answer any question you might have. We look
+            forward to hearing from you
           </p>
           <div className="flex flex-col gap-1 mt-3">
             <label htmlFor="" className=" 2xl:text-lg">
@@ -133,7 +133,7 @@ const ContactUs = () => {
           </div>
           <button
             type="submit"
-            className="bg-[#7165FF] dark:bg-gradient-to-br from-blue-700 to-blue-900  p-3.5 w-full rounded-[20px] mt-4 text-lg text-white"
+            className=" bg-yellow-500 p-3.5 w-full rounded-[20px] mt-4 text-lg text-white"
           >
             Submit{" "}
           </button>

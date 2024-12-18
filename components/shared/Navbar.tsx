@@ -20,8 +20,8 @@ const navlinks = [
     link: "home",
   },
   {
-    name: "Projects",
-    link: "projects",
+    name: "Services",
+    link: "services",
   },
   {
     name: "About",
@@ -76,9 +76,9 @@ const Navbar = () => {
       <div className="hidden lg:flex items-center gap-4">
         <ToggleTheme />
 
-        <button className=" bg-white dark:bg-transparent text-sm 2xl:text-base text-yellow-600 font-semibold rounded-[20px] px-5 2xl:px-6 py-2.5 2xl:py-3 border-[3px] text-center  border-yellow-600">
+        {/* <button className=" bg-white dark:bg-transparent text-sm 2xl:text-base text-yellow-600 font-semibold rounded-[20px] px-5 2xl:px-6 py-2.5 2xl:py-3 border-[3px] text-center  border-yellow-600">
           Schedule a call
-        </button>
+        </button> */}
       </div>
       <Sheet>
         <SheetTrigger className="block lg:hidden">
@@ -125,9 +125,9 @@ const Navbar = () => {
                     height={30}
                   />
                 </button>
-                <button className=" bg-white text-sm 2xl:text-base text-slate-500 font-semibold rounded-full px-5 2xl:px-8 py-2.5 2xl:py-4 border-2 border-[#00FAFE]">
+                {/* <button className=" bg-white text-sm 2xl:text-base text-slate-500 font-semibold rounded-full px-5 2xl:px-8 py-2.5 2xl:py-4 border-2 border-[#00FAFE]">
                   Schedule a call
-                </button>
+                </button> */}
               </div>
             </div>
           </SheetHeader>
